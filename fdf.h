@@ -117,5 +117,6 @@ int				ft_kostil(t_fdf *data);
 void			rotation(t_fdf *data);
 float			mod(float a);
 float			maximum(float a, float b);
+void			ft_menu(void);
 
 #endif

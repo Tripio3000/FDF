@@ -80,6 +80,7 @@ int		main(int argc, char **argv)
 		read_file(argv[1], data);
 	else
 		return (error());
+	ft_menu();
 	init_zbuffer(data);
 	init_var(data);
 	minmax_z(data);
