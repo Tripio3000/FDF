@@ -25,19 +25,8 @@ void	flags(char *format, t_struct *st, va_list ap)
 	//length(format, st, ap);
 }
 
-void	ft_print(char *format, t_struct *st)
+void	print_resh(char *format, t_struct *st)
 {
-	int i;
-
-	i = 0;
-	st->i = st->i - 1;
-	if (st->f_minus == 1)
-		st->schet = st->schet + re_putstr(st->tmp);
-	//printf("(ft_print)st->i = %d\n", st->i);
-	 if (st->f_nul > 0 && st->f_minus != 1)
-	 	i++;
-	 else if (st->f_space == 1 || st->wdht > 0)
-	 	space_print(st);
 	if (st->f_resh == 1 && st->tmp[0] != '0')
 	{
 		if (format[st->i] == 'x')
@@ -47,6 +36,34 @@ void	ft_print(char *format, t_struct *st)
 		else if (format[st->i] == 'o')
 			st->schet = st->schet + re_putstr("0");
 	}
+}
+
+void	ft_print(char *format, t_struct *st)
+{
+	int i;
+
+	i = 0;
+	st->i = st->i - 1;
+	if (st->f_minus == 1)
+	{
+		print_resh(format, st);
+		st->schet = st->schet + re_putstr(st->tmp);
+		return ;
+	}
+	 if (st->f_nul > 0 && st->f_minus != 1)
+	 	i++;
+	 else if (st->f_space == 1 || st->wdht > 0)
+	 	space_print(st);
+	 print_resh(format, st);
+//	if (st->f_resh == 1 && st->tmp[0] != '0')
+//	{
+//		if (format[st->i] == 'x')
+//			st->schet = st->schet + re_putstr("0x");
+//		else if (format[st->i] == 'X')
+//			st->schet = st->schet + re_putstr("0X");
+//		else if (format[st->i] == 'o')
+//			st->schet = st->schet + re_putstr("0");
+//	}
 	if (i > 0)
 		null_print(st);
 	if (st->f_minus == 0)

@@ -73,6 +73,12 @@ void	ft_printf_sec(char *format, t_struct *st, va_list ap)
 		d = va_arg(ap, unsigned int);
 		specif_uoxX(st, format, d);
 	}
+	else if (format[st->i] == 'f')
+    {
+	    double f;
+	    f = va_arg(ap, double);
+
+    }
 	if (format[st->i] == 'p')
 	{
 		st->d = va_arg(ap, long long int);
@@ -183,14 +189,59 @@ int		ft_printf(char *format, ...) //сюда нужно вставить ост�
 	return (st->schet);
 }
 
-//int main()
-//{
-//    // int *b;
-//    // int a = 0x10d;
-//    // b = &a;
-//    int a = printf("%#-x", 567);
+
+
+typedef struct				s_str
+{
+    unsigned int            mant : 23;
+    unsigned int            exp : 8;
+    unsigned int            sign : 1;
+
+
+}							t_str;
+
+typedef union				u_sun{
+    float                   f;
+    struct s_str            v;
+}							t_sun;
+
+int main() {
+    // int *b;
+    // int a = 0x10d;
+    // b = &a;
+//    int a = printf("%.12f", 5427.54445);
 //	printf("\na = %d\n", a);
-//	int i = ft_printf("%#-x", 567);
+//	int i = ft_printf("%-#x", 5427);
 //	printf("\ni = %d\n", i);
-//    return 0;
-//}
+
+                // 0b00000001100000000000000000000000
+                // 0b00111111101001000000000000000000
+    signed int n = 0b00111101110011001100110011001101;
+    float *f = (float *)&n;
+//    float f = 12.25;
+
+    t_sun p;
+
+    p.f = *f;
+
+    printf("%d_ %d_ %d  %.10f\n", p.v.sign, p.v.exp, p.v.mant, p.f);
+
+    p.v.exp = 127;
+
+    printf("%d_ %d_ %d  %f\n", p.v.sign, p.v.exp - 127, p.v.mant, p.f);
+
+//
+//    long double a = 9.78e-4000L;
+//
+//    long double b = a;
+//	int num = (int)b;
+//	int i = 0;
+//	ft_putstr("0.");
+//	while (i < 4100)
+//    {
+//	    i++;
+//        b = (b - (long double)num) * 10.0;
+//	    num = (int)b;
+//	    ft_putnbr(num);
+//	    ft_putchar('\n');
+}
