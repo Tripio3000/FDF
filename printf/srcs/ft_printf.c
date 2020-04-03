@@ -75,9 +75,9 @@ void	ft_printf_sec(char *format, t_struct *st, va_list ap)
 	}
 	else if (format[st->i] == 'f')
     {
-	    double f;
+	    long double f;
 	    f = va_arg(ap, double);
-
+        bit_parcer(f);
     }
 	if (format[st->i] == 'p')
 	{
@@ -189,48 +189,27 @@ int		ft_printf(char *format, ...) //сюда нужно вставить ост�
 	return (st->schet);
 }
 
-
-
-typedef struct				s_str
+int main()
 {
-    unsigned int            mant : 23;
-    unsigned int            exp : 8;
-    unsigned int            sign : 1;
-
-
-}							t_str;
-
-typedef union				u_sun{
-    float                   f;
-    struct s_str            v;
-}							t_sun;
-
-int main() {
-    // int *b;
-    // int a = 0x10d;
-    // b = &a;
-//    int a = printf("%.12f", 5427.54445);
-//	printf("\na = %d\n", a);
-//	int i = ft_printf("%-#x", 5427);
-//	printf("\ni = %d\n", i);
+//    int *b;
+//    int a = 0x10d;
+//    b = &a;
+    float c = 99654882.0;
+    int a = printf("%f", c);
+	printf("\na = %d\n", a);
+	int i = ft_printf("%f", 1200050000.0);
+	printf("\ni = %d\n", i);
 
                 // 0b00000001100000000000000000000000
                 // 0b00111111101001000000000000000000
-    signed int n = 0b00111101110011001100110011001101;
-    float *f = (float *)&n;
-//    float f = 12.25;
+//    signed int n = 0b01000000001100000000000000000000;
+//    float *f = (float *)&n;
 
-    t_sun p;
-
-    p.f = *f;
-
-    printf("%d_ %d_ %d  %.10f\n", p.v.sign, p.v.exp, p.v.mant, p.f);
-
-    p.v.exp = 127;
-
-    printf("%d_ %d_ %d  %f\n", p.v.sign, p.v.exp - 127, p.v.mant, p.f);
-
-//
+//    t_sun p;
+//    p.f = *f;
+//    printf("%d_ %d_ %d  %f\n", p.v.sign, p.v.exp, p.v.mant, p.f);
+//    //p.v.exp = 127;
+//    printf("%d_ %d_ %d  %f\n", p.v.sign, p.v.exp - 127, p.v.mant, p.f);
 //    long double a = 9.78e-4000L;
 //
 //    long double b = a;
@@ -244,4 +223,41 @@ int main() {
 //	    num = (int)b;
 //	    ft_putnbr(num);
 //	    ft_putchar('\n');
+
+
+//    unsigned x;
+//    unsigned displayMask; //маска
+//    unsigned c; //счетчик
+//
+//    x = 65000;
+//    displayMask = 1 << 31;
+//   // printf("%d\n", displayMask);
+//
+//    //printf("%d = ", x);
+//    putchar(x & 00000100 ? '1' : '0');
+//    printf("\n");
+//
+//    for (c=1; c<=32; c++)
+//    {
+//        putchar(x & (1 << c) ? '1' : '0');
+//        //displayMask <<= 1;
+//
+//        if (c % 8 == 0)
+//            putchar(' ');
+//    }
+
+
 }
+//typedef struct				s_str
+//{
+//    unsigned int            mant : 23;
+//    unsigned int            exp : 8;
+//    unsigned int            sign : 1;
+//
+//
+//}							t_str;
+//
+//typedef union				u_sun{
+//    float                   f;
+//    struct s_str            v;
+//}		                    t_sun;

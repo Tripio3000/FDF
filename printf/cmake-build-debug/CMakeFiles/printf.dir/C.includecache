@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/school21/R2D2/printf/includes/ft_printf.h
+stdio.h
+-
+stdarg.h
+-
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+../libft/libft.h
+/home/alex/school21/R2D2/printf/libft/libft.h
+
+/home/alex/school21/R2D2/printf/libft/libft.h
+string.h
+-
+
+/home/alex/school21/R2D2/printf/srcs/ft_printf.c
+../includes/ft_printf.h
+/home/alex/school21/R2D2/printf/includes/ft_printf.h
+

@@ -1,0 +1,96 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/alex/school21/R2D2/printf/libft/ft_atoi.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_atoi.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_bzero.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_bzero.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_isalnum.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_isalnum.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_isalpha.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_isalpha.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_isascii.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_isascii.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_isblank.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_isblank.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_isdigit.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_isdigit.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_islower.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_islower.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_isprint.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_isprint.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_isspace.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_isspace.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_isupper.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_isupper.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_itoa.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_itoa.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_lstadd.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_lstadd.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_lstaddback.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_lstaddback.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_lstdel.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_lstdel.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_lstdelone.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_lstdelone.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_lstiter.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_lstiter.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_lstmap.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_lstmap.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_lstnew.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_lstnew.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_memalloc.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_memalloc.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_memccpy.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_memccpy.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_memchr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_memchr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_memcmp.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_memcmp.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_memcpy.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_memcpy.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_memdel.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_memdel.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_memmove.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_memmove.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_memset.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_memset.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_putchar.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_putchar.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_putchar_fd.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_putchar_fd.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_putendl.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_putendl.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_putendl_fd.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_putendl_fd.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_putnbr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_putnbr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_putnbr_fd.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_putnbr_fd.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_putstr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_putstr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_putstr_fd.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_putstr_fd.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strcat.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strcat.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strchr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strchr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strchrs.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strchrs.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strclr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strclr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strcmp.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strcmp.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strcpy.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strcpy.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strdel.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strdel.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strdup.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strdup.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strequ.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strequ.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_striter.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_striter.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_striteri.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_striteri.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strjoin.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strjoin.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strlcat.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strlcat.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strlen.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strlen.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strlwr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strlwr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strmap.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strmap.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strmapi.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strmapi.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strncat.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strncat.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strncmp.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strncmp.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strncpy.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strncpy.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strndup.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strndup.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strnequ.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strnequ.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strnew.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strnew.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strnlen.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strnlen.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strnstr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strnstr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strrchr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strrchr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strrev.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strrev.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strsplit.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strsplit.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strstr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strstr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strsub.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strsub.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strsubchr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strsubchr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strtrim.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strtrim.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_strupr.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_strupr.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_tolower.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_tolower.c.o"
+  "/home/alex/school21/R2D2/printf/libft/ft_toupper.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/libft/ft_toupper.c.o"
+  "/home/alex/school21/R2D2/printf/srcs/flags.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/srcs/flags.c.o"
+  "/home/alex/school21/R2D2/printf/srcs/floats.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/srcs/floats.c.o"
+  "/home/alex/school21/R2D2/printf/srcs/ft_printf.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/srcs/ft_printf.c.o"
+  "/home/alex/school21/R2D2/printf/srcs/new.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/srcs/new.c.o"
+  "/home/alex/school21/R2D2/printf/srcs/re_func.c" "/home/alex/school21/R2D2/printf/cmake-build-debug/CMakeFiles/printf.dir/srcs/re_func.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../includes"
+  "../libft"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

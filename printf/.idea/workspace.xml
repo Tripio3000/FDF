@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="printf" targetName="printf" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,11 +12,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="431cd2c8-d6bb-4330-9cde-823820d0efa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/srcs/re_func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_atoi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_bzero.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_isalnum.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_isalpha.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_isascii.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_isdigit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_isprint.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_itoa.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_lstadd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_lstdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_lstdelone.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_lstiter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_lstmap.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_lstnew.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_memalloc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_memccpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_memchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_memcmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_memcpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_memdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_memmove.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_memset.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_putchar.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_putchar_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_putendl.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_putendl_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_putnbr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_putnbr_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_putstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_putstr_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strclr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strcmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strcpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strdup.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strequ.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_striter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_striteri.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strjoin.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strlcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strlen.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strmap.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strmapi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strncat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strncmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strncpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strnequ.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strnew.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strnstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strrchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strsplit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strsub.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_strtrim.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_tolower.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/libft/ft_toupper.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/srcs/flags.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/srcs/ft_printf.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/srcs/new.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/printf/srcs/re_func.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/printf_1.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/printf_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/printf_1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/ft_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/ft_printf.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srcs/ft_printf.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/ft_printf.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/new.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/new.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +116,21 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -37,8 +144,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="printf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="printf" TARGET_NAME="printf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="printf" RUN_TARGET_NAME="printf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,6 +180,17 @@
       <workItem from="1582907476067" duration="156000" />
       <workItem from="1582912576313" duration="1668000" />
       <workItem from="1583156572413" duration="3845000" />
+      <workItem from="1584539984844" duration="30000" />
+      <workItem from="1584617665036" duration="1217000" />
+      <workItem from="1585160025995" duration="3116000" />
+      <workItem from="1585415580153" duration="3690000" />
+      <workItem from="1585422436235" duration="4887000" />
+      <workItem from="1585485699371" duration="7264000" />
+      <workItem from="1585565949694" duration="5316000" />
+      <workItem from="1585657661374" duration="2673000" />
+      <workItem from="1585673996364" duration="1833000" />
+      <workItem from="1585747349593" duration="3811000" />
+      <workItem from="1585776541085" duration="14375000" />
     </task>
     <servers />
   </component>
@@ -65,17 +202,70 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1463" y="356" key="#C/C++/0.23.2560.1337@0.23.2560.1337" timestamp="1582906945244" />
+    <state x="452" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584540001853">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="452" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1584540001853" />
+    <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584540012598">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl/69.27.1851.1053@69.27.1851.1053" timestamp="1584540012598" />
+    <state width="1805" height="124" key="GridCell.Tab.0.bottom" timestamp="1585852613940">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="124" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1585852613940" />
+    <state width="1805" height="124" key="GridCell.Tab.0.center" timestamp="1585852613940">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="124" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1585852613940" />
+    <state width="1805" height="124" key="GridCell.Tab.0.left" timestamp="1585852613939">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="124" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1585852613939" />
+    <state width="1805" height="124" key="GridCell.Tab.0.right" timestamp="1585852613940">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="124" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1585852613940" />
+    <state width="1805" height="293" key="GridCell.Tab.1.bottom" timestamp="1585851843613">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="293" key="GridCell.Tab.1.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1585851843613" />
+    <state width="1805" height="293" key="GridCell.Tab.1.center" timestamp="1585851843613">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="293" key="GridCell.Tab.1.center/69.27.1851.1053@69.27.1851.1053" timestamp="1585851843613" />
+    <state width="1805" height="293" key="GridCell.Tab.1.left" timestamp="1585851843612">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="293" key="GridCell.Tab.1.left/69.27.1851.1053@69.27.1851.1053" timestamp="1585851843612" />
+    <state width="1805" height="293" key="GridCell.Tab.1.right" timestamp="1585851843613">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="293" key="GridCell.Tab.1.right/69.27.1851.1053@69.27.1851.1053" timestamp="1585851843613" />
     <state x="789" y="330" key="SettingsEditor" timestamp="1582912614709">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="789" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1582912614709" />
-    <state x="936" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1583156582255">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="746" y="422" key="com.intellij.ide.util.TipDialog" timestamp="1585776545680">
+      <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="936" y="525" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583156582255" />
-    <state x="1528" y="327" width="670" height="676" key="search.everywhere.popup" timestamp="1583160093555">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="746" y="422" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1585776545680" />
+    <state x="1174" y="266" width="672" height="533" key="search.everywhere.popup" timestamp="1585780911789">
+      <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="1528" y="327" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1583160093555" />
+    <state x="1174" y="266" width="672" height="533" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1585780911789" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/floats.c</url>
+          <line>112</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -32,7 +32,20 @@ typedef struct				s_struct{
 	int						f_nul;
 	int						wdht; //ширина для длинны типа 0 или пробел
 	int						schet;// для ретерна
-}							t_struct;
+}   						t_struct;
+
+typedef struct				s_str
+{
+//    unsigned int            bit : 1;
+    unsigned long int       mant : 23;
+    unsigned int            exp : 8;
+    unsigned int            sign : 1;
+}							t_str;
+
+typedef union				u_sun{
+    float                   f;
+    struct s_str            v;
+}							t_sun;
 
 int 						ft_printf(char *format, ...);
 int							octal(unsigned long long int a, t_struct *st);
@@ -55,5 +68,6 @@ void						ft_free(t_struct *st);
 void						space_print(t_struct *st);
 int							re_putstr(char const *s);
 int							re_putchar(char c);
+void                        bit_parcer(long double f);
 
 #endif
